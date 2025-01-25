@@ -43,16 +43,16 @@ doct auth init
        app.run(host='0.0.0.0', port=80)
    ``` 
 
-   - Create a requirements.txt file
+## 4) Create a requirements.txt file
 
    ```txt 
    Flask
    ```
   
-## 3) Containerize the application
+## 4) Containerize the application
    - Create Dockerfile
 
-   ```
+   ```DockerFile 
    # Use an official Python runtime as a parent image
    FROM python
 
