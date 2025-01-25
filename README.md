@@ -82,27 +82,26 @@ doct auth init
    docker run -p 80:80 my-python-app  
    ```
    
-4) Deploy to container registry on cloud platform
-   - Create registry
+## 5) Deploy to container registry on cloud platform
+   5.1 Create registry
 
    ```
    doctl registry create <your-registry-name>
    ```
-   
-   - Login to registry
+   5.2 Login to registry
 
    ```
    doctl registry login
    ```
 
-   - Tag and push image
+   5.3 Tag and push image
 
    ```
    docker tag my-python-app registry.digitalocean.com/<your-registry-name>/my-python-app
    docker push registry.digitalocean.com/<your-registry-name>/my-python-app 
    ```
    
-5) Create Kubernetes cluster
+## 6) Create Kubernetes cluster
 
    ```
    doctl kubernetes cluster create <your-cluster-name> --tag do-tutorial --auto-upgrade=true --node-pool "name=mypool;count=2;auto-scale=true;min-nodes=1;max-   nodes=3;tag=do-tutorial" 
