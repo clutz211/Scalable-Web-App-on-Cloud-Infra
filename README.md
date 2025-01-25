@@ -52,7 +52,7 @@ doct auth init
 ## 4) Containerize the application
    - Create Dockerfile
 
-   ```DockerFile 
+   ```Dockerfile
    # Use an official Python runtime as a parent image
    FROM python
 
