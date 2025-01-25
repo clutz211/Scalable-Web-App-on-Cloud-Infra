@@ -26,7 +26,7 @@ doct auth init
 ## 2) Create Flask application
    - Create app.py file 
 
-   ```
+   ```python
    from flask import Flask
    import os
    import socket
@@ -41,7 +41,7 @@ doct auth init
 
    if __name__ == "__main__":
        app.run(host='0.0.0.0', port=80)
-    ```
+    ``` 
 
    - Create a requirements.txt file
 
