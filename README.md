@@ -1,29 +1,29 @@
 # Scalable Web-Application Deployment
 This project demonstrates how to build and deploy a scalable web application on a cloud platform using Kubernetes. The application is built with Flask, containerized using Docker, and deployed on a Kubernetes cluster. The deployment includes load balancing, autoscaling, and cost optimization.   
 
-## Features
+# Features
 - Containerized web application using Docker
 - Deployed on DigitalOcean Kubernetes (DOKS)
 - Horizontal pod autoscaling (HPA) and cluster autoscaling 
 - Load balancing
 - Cost optimization strategies
 
-## Prerequisites 
+# Prerequisites 
 - DigitalOcean account
 - GitHub account
 - DigitalOcean CLI (doctl)
 - Kubernetes CLI (kubectl)
 - Docker
 
-## Setup Instructions  
+# Setup Instructions  
 
-1) Authenticate DigitalOcean CLI
+## 1) Authenticate DigitalOcean CLI
    
 ```
 doct auth init 
 ```
 
-2) Create Flask application
+## 2) Create Flask application
    - Create app.py file 
 
    ```
@@ -49,7 +49,7 @@ doct auth init
    Flask
    ```
   
-3) Containerize the application
+## 3) Containerize the application
    - Create Dockerfile
 
    ```
