@@ -23,7 +23,7 @@ This project demonstrates how to build and deploy a scalable web application on 
 doct auth init 
 ```
 
-3) Create Flask application
+2) Create Flask application
    - Create app.py file 
 
    ```
@@ -82,7 +82,7 @@ doct auth init
    docker run -p 80:80 my-python-app  
    ```
    
-3) Deploy to container registry on cloud platform
+4) Deploy to container registry on cloud platform
    - Create registry
 
    ```
@@ -108,7 +108,7 @@ doct auth init
    doctl kubernetes cluster create <your-cluster-name> --tag do-tutorial --auto-upgrade=true --node-pool "name=mypool;count=2;auto-scale=true;min-nodes=1;max-   nodes=3;tag=do-tutorial" 
    ```
    
-7) Deploy application to Kubernetes 
+6) Deploy application to Kubernetes 
    - Authorize registry
 
   ```
@@ -127,10 +127,10 @@ doct auth init
    kubectl expose deployment my-python-app --type=LoadBalancer --port 80 --target-port 80
    ```
 
-8) Enable autoscaling
+7) Enable autoscaling
    - Setup horizontal pod autoscaling (HPA) based on CPU usage
    - Setup cluster autoscaling 
-9) Monitor and scale the application
+8) Monitor and scale the application
    - Check the status of your cluster and pods
 
    ```
@@ -145,7 +145,7 @@ doct auth init
    kubectl scale deployment/my-python-app --replicas=20
    ```
    
-10) Cost optimization
+9) Cost optimization
    - Autoscaling with HPA and cluster techniques    
    - Load balancing
    - Spot instances
