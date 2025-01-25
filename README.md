@@ -82,7 +82,7 @@ doct auth init
    docker run -p 80:80 my-python-app  
    ```
    
-3) Deploy to DigitalOcean container registry
+3) Deploy to container registry on cloud platform
    - Create registry
 
    ```
