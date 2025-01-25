@@ -1,7 +1,5 @@
-# Scalable-Web-App
-
-# Scalable Web-Application Deployment on DigitalOcean
-This project demonstrates how to build and deploy a scalable web application on DigitalOcean using Kubernetes. The application is built with Flask, containerized using Docker, and deployed on a Kubernetes cluster. The deployment includes load balancing, autoscaling, and cost optimization.   
+# Scalable Web-Application Deployment
+This project demonstrates how to build and deploy a scalable web application on a cloud platform using Kubernetes. The application is built with Flask, containerized using Docker, and deployed on a Kubernetes cluster. The deployment includes load balancing, autoscaling, and cost optimization.   
 
 ## Features
 - Containerized web application using Docker
@@ -154,8 +152,4 @@ doct auth init
    - Right size nodes based on resource utilization metrics
 
 ## Conclusion 
-This project demonstrates how to deploy a scalable, containerized web-application on DigitalOcean using Kubernetes. By following these steps, you can create a robust and efficient deployment with optimized costs and performance. 
-
-## Resources 
-- [DigitalOcean Kubernetes Documentation](https://www.digitalocean.com/docs/kubernetes/)
-- [Kubernetes Horizontal Pod Autoscaler](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/)
+This project demonstrates how to deploy a scalable, containerized web-application on a cloud platform using Kubernetes. By following these steps, you can create a robust and efficient deployment with optimized costs and performance. 
