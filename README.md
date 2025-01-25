@@ -41,11 +41,11 @@ doct auth init
 
    if __name__ == "__main__":
        app.run(host='0.0.0.0', port=80)
-    ``` 
+   ``` 
 
    - Create a requirements.txt file
 
-   ```
+   ```txt 
    Flask
    ```
   
