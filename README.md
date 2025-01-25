@@ -24,7 +24,7 @@ doct auth init
 ```
 
 ## 2) Create Flask application
-   - Create app.py file 
+   2.1 Create app.py file 
 
    ```python
    from flask import Flask
@@ -43,14 +43,14 @@ doct auth init
        app.run(host='0.0.0.0', port=80)
    ``` 
 
-## 4) Create a requirements.txt file
+## 3) Create a requirements.txt file
 
    ```txt 
    Flask
    ```
   
 ## 4) Containerize the application
-   - Create Dockerfile
+   4.1 Create Dockerfile
 
    ```Dockerfile
    # Use an official Python runtime as a parent image
@@ -75,7 +75,7 @@ doct auth init
    CMD ["python", "app.py"]
    ```
 
-   - Build and test locally
+   4.2 Build and test locally
 
    ```
    docker build -t my-python-app .
